@@ -1,0 +1,405 @@
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+A:active,
+A:visited,
+a {
+    text-decoration: none;
+    color: #0b0c0e
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f7fa;
+    
+    margin: 0;
+   
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.conteiner {
+    background-color: #f4f7fa;
+
+    
+}
+.conteiner_menu{
+    height: 700px;
+    background-color: #c7d0d9;
+    padding: 0px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px 0px 80px;
+    height: 422px;
+    z-index: 50;
+}
+
+.menu_l {}
+
+.menu__name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #0B0C0E;
+}
+.menu_r {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0B0C0E;
+
+}
+
+.menu__part {
+    flex: 1 1 auto;
+    margin: 0 40px;
+    
+}
+
+.menu__job{
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+    color: #f4f7fa;
+    
+}
+.menu__eblo{
+
+    position: absolute;
+    top: 46px;
+}
+.menu__content{
+    z-index:1;
+    position:absolute;
+}
+.after_menu1{
+    padding: 0 80px;
+}
+.conteiner__about {
+    display: flex;
+    padding: 40px 0px 0px 0px ;
+    
+}
+.about__title {
+    flex: 1 0 50%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+.about__content {
+    flex: 1 0 50%;
+    color: #3c3d3e;
+    font-family: Neue Montreal;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.conteiner__Work {
+    display: flex;
+    padding: 100px 0px 0px 0px;
+}
+.Work__title {
+    flex: 1 0 50%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 73px;
+
+}
+.Work__content {
+    flex: 1 0 50%;
+}
+
+
+.content-work{
+    
+}
+.Work__line {
+    display: flex;
+    height: 120px;
+    padding: 0px 80px 0px 0px;
+}
+
+.work__no_img{
+    flex: 0 1 90%;
+}
+.line__work_1 {
+    padding: 0px 0px 16px 0px;
+    border-bottom: 1px solid #aaa;
+}
+.Work__text {
+    padding: 18px 0px 0px 0px;
+}
+.Work__link {
+    flex: 0 1 10%;
+}
+.line__work_2 {
+    padding: 16px 0px;
+    border-bottom: 1px solid #aaa;
+}
+.line__work_3 {
+    padding: 16px 0px;
+    border-bottom: 1px solid #aaa;
+}
+.line__work_4 {
+    padding: 16px 0px 0px 0px;
+}
+
+
+
+
+
+.work__example {
+}
+.ex__line {
+    display: flex;
+}
+.line__ex_1 {
+    padding: 160px 0px 0px 0px;
+    
+}
+.ex__block {
+    background-color: #c7d0d9;
+    width: 348px;
+    height: 194px;
+    margin: 0px 40px 0px 0px;
+    
+
+}
+.block__ex_1 {
+    padding: 56px 48px;
+    
+}
+.block__ex_2 {
+    padding: 56px 48px;
+}
+.block__ex_3 {
+    padding: 56px 48px;
+}
+.ex__img {
+   
+}
+.line__ex_2 {
+    padding: 41px 0px 0px 0px;
+}
+.block__ex_4 {
+    width: 294px;
+    height: 194px;
+    padding: 56px 48px 56px 0px;
+}
+.block__ex_5 {
+    padding: 56px 48px;
+}
+.block__ex_6 {
+    padding: 56px 48px;
+}
+.block__ex_7 {
+    width: 114px;
+    padding: 56px 0px 56px 48px;
+    margin: 0px;
+}
+
+
+
+
+/* ******************************************************************************************************* */
+
+.conteiner__testimonials {
+    display: flex;
+    padding: 160px 80px 0px 80px ;
+}
+.testmonials__title {
+    flex: 1 0 50%;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 73px;
+
+}
+.testimonials__content {
+
+    flex: 1 0 50%;
+
+}
+.commet {
+    
+}
+.comment_1 {
+    padding: 0px 0px 64px 0px;
+}
+.comment__text {
+    padding: 0px 0px 28px 0px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 140%;
+    color: #3C3D3E;
+}
+.comment__author {
+    display: flex;
+}
+.author__img {
+    padding: 0px 16px 0px 0px;
+}
+.author__name {
+    padding: 6.5px 0px;
+ 
+}
+.name__name {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #0B0C0E;
+}
+.name__job {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #0B0C0E;
+}
+.comment_2 {
+}
+
+
+
+/* ************************************************************************************* */
+
+.footer {
+    margin: 141px 0px 0px 0px;
+    background-color: #0b0c0e;
+}
+.footer__conteiner {
+    padding: 80px 80px 33px 80px;
+    
+}
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__main-qestion {
+    
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 72px;
+    color: #F4F7FA;
+}
+.footer__main-button {
+   
+}
+.button__footer{
+
+}
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 138px 0px 0px 0px;
+
+}
+.author__name {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #C7D0D9;
+}
+.links__sosial {
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+.link__sosial {
+    flex: 1 1 auto;
+    margin: 0 32px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #C7D0D9;
+}
+
+
+
+
+.button__footer {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0B0C0E;
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 70px;
+    width: 190px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.button__footer:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.button__footer:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.button__footer:active {
+	background-color: #808080;
+}
+.button__footer:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
